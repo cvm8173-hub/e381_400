@@ -15,36 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/b-s-anangpuria-institute-of-technology-and-management-faridabad-24042",
-  "https://www.shiksha.com/university/spsu-sir-padampat-singhania-university-udaipur-23769",
-  "https://www.shiksha.com/college/gyan-ganga-college-of-technology-ggct-jabalpur-43346",
-  "https://www.shiksha.com/college/bankura-unnayani-institute-of-engineering-24060",
-  "https://www.shiksha.com/college/institute-of-computer-technology-ganpat-university-mehsana-63343",
-  "https://www.shiksha.com/college/k-s-school-of-engineering-and-management-kanakapura-road-bangalore-156787",
-  "https://www.shiksha.com/college/university-college-of-engineering-and-technology-hazaribag-hazaribagh-66845",
-  "https://www.shiksha.com/university/adikavi-nannaya-university-aknudoa-rajahmundry-50956",
-  "https://www.shiksha.com/college/lbs-college-of-engineering-kasargode-20515",
-  "https://www.shiksha.com/university/nagaland-university-dimapur-campus-52422",
-  "https://www.shiksha.com/college/doon-group-of-institutions-dehradun-31437",
-  "https://www.shiksha.com/college/sharadchandra-pawar-college-of-engineering-pune-31754",
-  "https://www.shiksha.com/college/jansons-institute-of-technology-coimbatore-52649",
-  "https://www.shiksha.com/college/trinity-institute-of-innovations-in-professional-studies-greater-noida-67407",
-  "https://www.shiksha.com/college/ngf-college-of-engineering-and-technology-faridabad-32561",
-  "https://www.shiksha.com/college/r-n-g-patel-institute-of-technology-surat-65581",
-  "https://www.shiksha.com/college/jb-knowledge-park-faridabad-64185",
-  "https://www.shiksha.com/university/madhyanchal-professional-university-bhopal-58839",
-  "https://www.shiksha.com/college/sri-subramanya-college-of-engineering-and-technology-tamil-nadu-other-22994",
-  "https://www.shiksha.com/college/priyadarshini-bhagwati-college-of-engineering-nagpur-150799",
-  "https://www.shiksha.com/college/university-college-of-engineering-kariavattom-thiruvananthapuram-59125",
-  "https://www.shiksha.com/college/arya-group-of-colleges-jaipur-52932",
-  "https://www.shiksha.com/college/government-engineering-college-bhavnagar-38012",
-  "https://www.shiksha.com/college/rayat-bahra-university-powered-by-sunstone-mohali-151293",
-  "https://www.shiksha.com/college/mit-group-of-institutes-mahakal-ujjain-4055",
-  "https://www.shiksha.com/college/alpine-group-of-institutes-dehradun-34796",
-  "https://www.shiksha.com/college/k-l-e-society-s-k-l-e-institute-of-technology-hubli-59145",
-  "https://www.shiksha.com/college/om-group-of-institutions-hisar-29712",
-  "https://www.shiksha.com/college/r-k-college-of-engineering-vijayawada-46605",
-  "https://www.shiksha.com/college/hon-shri-babanrao-pachpute-vichardhara-trust-s-parikrama-group-of-institutions-ahmednagar-64641",
+  "https://www.shiksha.com/college/doaba-group-of-colleges-mohali-52928",
+  "https://www.shiksha.com/college/gurgaon-college-of-engineering-38235",
+  "https://www.shiksha.com/college/iccs-college-of-engineering-and-management-thrissur-147045",
+  "https://www.shiksha.com/college/bhabha-engineering-research-institute-bhopal-43330",
+  "https://www.shiksha.com/university/dr-preeti-global-university-indore-216077",
+  "https://www.shiksha.com/university/rajiv-gandhi-university-of-knowledge-technologies-nuzvid-krishna-49402",
+  "https://www.shiksha.com/college/alpine-institute-of-technology-ujjain-43218",
+  "https://www.shiksha.com/college/visat-engineering-college-elanji-kerala-other-60698",
+  "https://www.shiksha.com/college/sgi-samalkha-group-of-institutions-panipat-32303",
+  "https://www.shiksha.com/college/naraina-college-of-engineering-and-technology-kanpur-52789",
+  "https://www.shiksha.com/college/gujarat-power-engineering-and-research-institute-mehsana-58941",
+  "https://www.shiksha.com/college/mpgi-maharana-pratap-group-of-institutions-kanpur-963",
+  "https://www.shiksha.com/university/kerala-veterinary-and-animal-sciences-university-wayanad-52865",
+  "https://www.shiksha.com/college/bvc-engineering-college-odalarevu-andhra-pradesh-other-63497",
+  "https://www.shiksha.com/college/neelkanth-group-of-institutions-meerut-47632",
+  "https://www.shiksha.com/college/college-of-engineering-cherthala-kerala-other-60329",
+  "https://www.shiksha.com/college/pw-institute-of-innovation-noida-241520",
+  "https://www.shiksha.com/college/brahmdevdada-mane-institute-of-technology-solapur-42733",
+  "https://www.shiksha.com/university/jharkhand-university-of-technology-ranchi-88779",
+  "https://www.shiksha.com/college/bheemanna-khandre-institute-of-technology-karnataka-other-22912",
 ]
 
 
@@ -9253,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 861
+    c_count = 1281
 
     try:
         for base_url in BASE_URL:
