@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/doaba-group-of-colleges-mohali-52928",
-  "https://www.shiksha.com/college/gurgaon-college-of-engineering-38235",
-  "https://www.shiksha.com/college/iccs-college-of-engineering-and-management-thrissur-147045",
-  "https://www.shiksha.com/college/bhabha-engineering-research-institute-bhopal-43330",
-  "https://www.shiksha.com/university/dr-preeti-global-university-indore-216077",
-  "https://www.shiksha.com/university/rajiv-gandhi-university-of-knowledge-technologies-nuzvid-krishna-49402",
-  "https://www.shiksha.com/college/alpine-institute-of-technology-ujjain-43218",
-  "https://www.shiksha.com/college/visat-engineering-college-elanji-kerala-other-60698",
-  "https://www.shiksha.com/college/sgi-samalkha-group-of-institutions-panipat-32303",
-  "https://www.shiksha.com/college/naraina-college-of-engineering-and-technology-kanpur-52789",
-  "https://www.shiksha.com/college/gujarat-power-engineering-and-research-institute-mehsana-58941",
-  "https://www.shiksha.com/college/mpgi-maharana-pratap-group-of-institutions-kanpur-963",
-  "https://www.shiksha.com/university/kerala-veterinary-and-animal-sciences-university-wayanad-52865",
-  "https://www.shiksha.com/college/bvc-engineering-college-odalarevu-andhra-pradesh-other-63497",
-  "https://www.shiksha.com/college/neelkanth-group-of-institutions-meerut-47632",
-  "https://www.shiksha.com/college/college-of-engineering-cherthala-kerala-other-60329",
-  "https://www.shiksha.com/college/pw-institute-of-innovation-noida-241520",
-  "https://www.shiksha.com/college/brahmdevdada-mane-institute-of-technology-solapur-42733",
-  "https://www.shiksha.com/university/jharkhand-university-of-technology-ranchi-88779",
-  "https://www.shiksha.com/college/bheemanna-khandre-institute-of-technology-karnataka-other-22912",
+  "https://www.shiksha.com/college/warangal-institute-of-technology-science-61345",
+  "https://www.shiksha.com/college/trinity-college-of-engineering-and-technology-peddapalli-telangana-other-63755",
+  "https://www.shiksha.com/college/college-of-engineering-and-technology-amravati-mauli-s-group-of-institutions-59009",
+  "https://www.shiksha.com/college/bhaskar-engineering-college-ranga-reddy-60449",
+  "https://www.shiksha.com/college/arm-college-of-engineering-and-technology-mylapore-chennai-37546",
+  "https://www.shiksha.com/college/sivaji-college-of-engineering-and-technology-kanyakumari-61717",
+  "https://www.shiksha.com/college/shadan-women-s-college-of-engineering-and-technology-hyderabad-61275",
+  "https://www.shiksha.com/college/jb-institute-of-engineering-and-technology-moinabad-hyderabad-72449",
+  "https://www.shiksha.com/college/compucom-institute-of-technology-management-jaipur-24054",
+  "https://www.shiksha.com/college/ramireddy-subbarami-reddy-engineering-college-rsrec-nellore-43319",
+  "https://www.shiksha.com/college/shri-shirdi-sai-institute-of-science-and-engineering-sssise-anantapur-46618",
+  "https://www.shiksha.com/college/prashanti-institute-of-technology-and-science-ujjain-48113",
+  "https://www.shiksha.com/college/r-v-s-educational-trust-s-group-of-institutions-dindigul-61793",
+  "https://www.shiksha.com/college/savera-group-of-institutions-gurgaon-33418",
+  "https://www.shiksha.com/college/ilm-college-of-engineering-and-technology-ernakulam-ernakulum-60419",
+  "https://www.shiksha.com/college/bhopal-institute-of-technology-61925",
+  "https://www.shiksha.com/college/sd-mewat-institute-of-engineering-and-technology-68367",
+  "https://www.shiksha.com/college/columbia-group-of-institutions-raipur-30702",
+  "https://www.shiksha.com/college/technical-education-and-research-institute-teri-ghazipur-37447",
+  "https://www.shiksha.com/college/annai-college-of-engineering-and-technology-thanjavur-62019",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1281
+    c_count = 1681
 
     try:
         for base_url in BASE_URL:
