@@ -15,26 +15,14 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
- "https://www.shiksha.com/college/mahendra-engineering-college-for-women-namakkal-61499",
-  "https://www.shiksha.com/college/gokul-group-of-institutions-vizianagaram-63537",
-  "https://www.shiksha.com/college/subas-institute-of-technology-bhubaneswar-66813",
-  "https://www.shiksha.com/college/rkdf-college-of-technology-bhopal-147229",
-  "https://www.shiksha.com/college/kandula-obul-reddy-memorial-college-of-engineering-kadapa-60566",
-  "https://www.shiksha.com/college/bvsr-engineering-college-andhra-pradesh-other-61157",
-  "https://www.shiksha.com/college/surendera-group-of-institutions-sriganaganagar-46880",
-  "https://www.shiksha.com/college/brm-international-institute-of-technology-bhubaneswar-52909",
-  "https://www.shiksha.com/college/shriram-college-of-agricultural-engineering-solapur-66935",
-  "https://www.shiksha.com/college/school-of-engineering-and-technology-bahadurgarh-116631",
-  "https://www.shiksha.com/college/phonics-school-of-enginerring-and-business-administration-roorkee-123645",
-  "https://www.shiksha.com/college/bansal-group-of-institutes-bhopal-31007",
-  "https://www.shiksha.com/college/balaji-institute-of-engineering-and-technology-thandalam-chennai-47500",
-  "https://www.shiksha.com/college/pandit-dev-prabhakar-shastri-college-of-technology-pdsct-madhya-pradesh-other-48250",
-  "https://www.shiksha.com/college/aurora-s-technological-and-management-academy-atma-uppal-ranga-reddy-48466",
-  "https://www.shiksha.com/college/jairupaa-college-of-engineering-tamil-nadu-other-53939",
-  "https://www.shiksha.com/college/meerut-international-institute-of-technology-59807",
-  "https://www.shiksha.com/college/mahatma-gandhi-college-of-agriculture-bio-technology-nanded-153885",
-  "https://www.shiksha.com/college/rajasthan-engineering-college-dausa-192931",
-  "https://www.shiksha.com/college/sri-balaji-group-of-institutions-jaipur-52613",
+  "https://www.shiksha.com/college/bhoodevi-mata-college-of-pharmacy-uttar-pradesh-other-181129",
+  "https://www.shiksha.com/college/h-m-college-of-pharmacy-uttar-pradesh-other-181931",
+  "https://www.shiksha.com/college/ngi-college-of-pharmacy-meerut-183447",
+  "https://www.shiksha.com/college/mvm-suma-college-of-nursing-bangalore-185821",
+  "https://www.shiksha.com/college/mother-teresa-nursing-and-paramedical-institute-itute-jaipur-193125",
+  "https://www.shiksha.com/college/tagore-pharmacy-college-nagaur-193427",
+  "https://www.shiksha.com/college/team-speciality-hospital-pudukkottai-193845",
+  "https://www.shiksha.com/college/doctors-institute-of-laboratory-science-trichy-193909",
 ]
 
 
@@ -9243,7 +9231,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2101
+    c_count = 4173
 
     try:
         for base_url in BASE_URL:
