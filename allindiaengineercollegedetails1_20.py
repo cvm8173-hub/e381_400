@@ -15,14 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/bhoodevi-mata-college-of-pharmacy-uttar-pradesh-other-181129",
-  "https://www.shiksha.com/college/h-m-college-of-pharmacy-uttar-pradesh-other-181931",
-  "https://www.shiksha.com/college/ngi-college-of-pharmacy-meerut-183447",
-  "https://www.shiksha.com/college/mvm-suma-college-of-nursing-bangalore-185821",
-  "https://www.shiksha.com/college/mother-teresa-nursing-and-paramedical-institute-itute-jaipur-193125",
-  "https://www.shiksha.com/college/tagore-pharmacy-college-nagaur-193427",
-  "https://www.shiksha.com/college/team-speciality-hospital-pudukkottai-193845",
-  "https://www.shiksha.com/college/doctors-institute-of-laboratory-science-trichy-193909",
+  "https://www.shiksha.com/college/world-college-of-pharmaceutical-sciences-district-jhajjar-self-financed-179903",
+  "https://www.shiksha.com/college/aditya-college-of-physiotherapy-yelahanaka-bangalore-184899",
+  "https://www.shiksha.com/college/ayurved-mahavidyalaya-pune-189569",
+  "https://www.shiksha.com/college/aravali-institute-of-paramedical-sciences-udaipur-201237",
+  "https://www.shiksha.com/college/sardar-ayurved-college-and-hospital-mehsana-214809",
+  "https://www.shiksha.com/college/crimson-clinical-research-institute-with-management-studies-and-on-line-education-thane-mumbai-30077",
+  "https://www.shiksha.com/college/k-c-t-college-of-pharmacy-gulbarga-67813",
+  "https://www.shiksha.com/college/rosy-royal-homoeopathic-medical-college-and-hospital-hubli-68173",
+  "https://www.shiksha.com/college/lisie-college-of-pharmacy-ernakulum-88595",
+  "https://www.shiksha.com/college/urmila-college-of-pharmacy-faizabad-148911",
+  "https://www.shiksha.com/college/emversity-school-of-hospitality-vizag-visakhapatnam-237042",
+  "https://www.shiksha.com/college/ies-group-of-institutions-bhopal-49166",
+  "https://www.shiksha.com/college/shri-pushpasen-sawant-college-of-diploma-pharmacy-maharashtra-other-88805",
+  "https://www.shiksha.com/college/lakshya-college-of-management-and-technology-bijnor-72847",
+  "https://www.shiksha.com/college/homoeopathic-medical-college-and-hospital-kolhapur-87017",
+  "https://www.shiksha.com/college/arvind-gavali-college-of-pharmacy-satara-106449",
+  "https://www.shiksha.com/college/bahadur-yadav-memorial-degree-college-uttar-pradesh-other-119979",
+  "https://www.shiksha.com/college/dr-arun-motghare-college-of-pharmacy-maharashtra-other-147757",
+  "https://www.shiksha.com/college/institute-of-pharmaceutical-education-and-research-wardha-147847",
+  "https://www.shiksha.com/college/chaudhary-chiranji-lal-college-of-pharmacy-uttar-pradesh-other-181145",
 ]
 
 
@@ -9231,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 4173
+    c_count = 2421
 
     try:
         for base_url in BASE_URL:
