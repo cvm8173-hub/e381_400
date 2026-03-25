@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/world-college-of-pharmaceutical-sciences-district-jhajjar-self-financed-179903",
-  "https://www.shiksha.com/college/aditya-college-of-physiotherapy-yelahanaka-bangalore-184899",
-  "https://www.shiksha.com/college/ayurved-mahavidyalaya-pune-189569",
-  "https://www.shiksha.com/college/aravali-institute-of-paramedical-sciences-udaipur-201237",
-  "https://www.shiksha.com/college/sardar-ayurved-college-and-hospital-mehsana-214809",
-  "https://www.shiksha.com/college/crimson-clinical-research-institute-with-management-studies-and-on-line-education-thane-mumbai-30077",
-  "https://www.shiksha.com/college/k-c-t-college-of-pharmacy-gulbarga-67813",
-  "https://www.shiksha.com/college/rosy-royal-homoeopathic-medical-college-and-hospital-hubli-68173",
-  "https://www.shiksha.com/college/lisie-college-of-pharmacy-ernakulum-88595",
-  "https://www.shiksha.com/college/urmila-college-of-pharmacy-faizabad-148911",
-  "https://www.shiksha.com/college/emversity-school-of-hospitality-vizag-visakhapatnam-237042",
-  "https://www.shiksha.com/college/ies-group-of-institutions-bhopal-49166",
-  "https://www.shiksha.com/college/shri-pushpasen-sawant-college-of-diploma-pharmacy-maharashtra-other-88805",
-  "https://www.shiksha.com/college/lakshya-college-of-management-and-technology-bijnor-72847",
-  "https://www.shiksha.com/college/homoeopathic-medical-college-and-hospital-kolhapur-87017",
-  "https://www.shiksha.com/college/arvind-gavali-college-of-pharmacy-satara-106449",
-  "https://www.shiksha.com/college/bahadur-yadav-memorial-degree-college-uttar-pradesh-other-119979",
-  "https://www.shiksha.com/college/dr-arun-motghare-college-of-pharmacy-maharashtra-other-147757",
-  "https://www.shiksha.com/college/institute-of-pharmaceutical-education-and-research-wardha-147847",
-  "https://www.shiksha.com/college/chaudhary-chiranji-lal-college-of-pharmacy-uttar-pradesh-other-181145",
+  "https://www.shiksha.com/college/p-s-p-s-s-indira-institute-of-pharmacy-ratnagiri-87997",
+  "https://www.shiksha.com/college/rajib-gandhi-nursing-training-school-west-bengal-other-88955",
+  "https://www.shiksha.com/college/institute-of-pharmacy-faizpur-jalgaon-97921",
+  "https://www.shiksha.com/college/nehru-memorial-college-of-pharmacy-hanumangarh-88345",
+  "https://www.shiksha.com/college/dr-apj-abdul-kalam-college-of-pharmacy-hubli-88997",
+  "https://www.shiksha.com/college/government-polytechnic-for-women-warangal-99829",
+  "https://www.shiksha.com/college/rukmani-devi-beni-prasad-jaipuria-hospital-106063",
+  "https://www.shiksha.com/college/mahrishi-college-of-homeopathic-pharmacy-chitravansham-group-of-college-kaushambi-138355",
+  "https://www.shiksha.com/college/riddhi-siddhi-institute-of-pharmacy-lucknow-148577",
+  "https://www.shiksha.com/college/bhagwan-singh-institute-of-pharmacy-uttar-pradesh-other-148735",
+  "https://www.shiksha.com/college/signa-college-of-pharmacy-kanpur-149345",
+  "https://www.shiksha.com/college/karmayogi-tatyasaheb-bondre-institute-of-pharmacy-chikhli-150655",
+  "https://www.shiksha.com/college/sheela-devi-institute-of-management-and-technology-faridabad-156209",
+  "https://www.shiksha.com/college/icri-max-hospital-delhi-203001",
+  "https://www.shiksha.com/college/government-medical-college-mancherial-209251",
+  "https://www.shiksha.com/college/wayanad-government-medical-college-mananthavady-244468",
+  "https://www.shiksha.com/college/santhiram-engineering-college-srec-kurnool-43169",
+  "https://www.shiksha.com/college/dr-joseph-mar-thoma-institute-of-pharmaceutical-sciences-and-research-kerala-other-60855",
+  "https://www.shiksha.com/college/ojaswini-pharmacy-college-sagar-230106",
+  "https://www.shiksha.com/college/shri-siddhi-vinayak-medical-college-hospital-sambhal-231702",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2421
+    c_count = 2821
 
     try:
         for base_url in BASE_URL:
